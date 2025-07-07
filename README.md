@@ -97,3 +97,74 @@ Visit the site 👉 [http://infradiaries.com](http://infradiaries.com)
 Made with ❤️ by [@Manurains](https://github.com/Manurains)
 
 Got ideas or want to collaborate? Open a PR or start a discussion!
+# InfraDiaries
+
+🚀 A curated DevOps, SRE & Platform Engineering blog for practitioners, engineers, and builders.
+
+InfraDiaries is your go-to place for hands-on infrastructure knowledge — from setting up high availability services, building CI/CD pipelines, comparing observability tools, to automating with Terraform, Bash, and more.
+
+---
+
+## 👋 Welcome
+
+Welcome to **InfraDiaries** — your curated platform for practical DevOps & Site Reliability Engineering (SRE) knowledge.
+
+Here you'll find:
+
+- Platform architecture implementations  
+- Automation workflows  
+- Observability and monitoring guides  
+- CI/CD pipelines using open source tools  
+- Infrastructure strategies for cloud-native and hybrid environments  
+
+---
+
+## 🗓️ 30-Day Content Plan
+
+Here's the roadmap from beginner to expert level across DevOps, Cloud, and SRE:
+
+### Week 1: DevOps Foundations
+- Git, GitHub & Version Control  
+- CI/CD Basics and GitHub Actions  
+- Docker Fundamentals  
+- Static Web Deployment
+
+### Week 2: Platform Engineering & IaC
+- Terraform & Ansible  
+- Docker Compose  
+- GitOps with Self-hosted Tools
+
+### Week 3: SRE, Monitoring & Observability
+- SLOs, SLIs, Error Budgets  
+- Prometheus, Grafana, Loki  
+- OpenTelemetry Basics
+
+### Week 4: Cloud, CI/CD, Security
+- AWS vs GCP Tools  
+- Gitea Runner Pipelines  
+- Zero Trust VPN with OpenVPN & OAuth2  
+- Cost Optimization Techniques  
+- Tools Comparison (e.g., Terraform vs Pulumi)
+
+---
+
+## 💻 Built With
+
+- [GitHub Pages](https://pages.github.com/)
+- [HTML5 + CSS3](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- Open Source DevOps Tooling
+
+---
+
+## 🔗 Website
+
+👉 [https://infradiaries.com](https://infradiaries.com)
+
+---
+
+## 📬 Contribute or Follow
+
+Want to collaborate, share ideas, or suggest content? Open an [issue](https://github.com/Manurains/infradiaries/issues) or follow for updates!
+
+---
+© 2025 InfraDiaries. All rights reserved.
