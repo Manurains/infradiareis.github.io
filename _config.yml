@@ -1,0 +1,11 @@
+title: "InfraDiaries"
+description: "Your DevOps & SRE Knowledge Base"
+theme: minima
+
+# Disable date-based permalinks
+permalink: /posts/:title/
+
+# Navigation
+header_pages:
+  - index.md
+  - posts.md
