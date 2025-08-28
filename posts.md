@@ -1,9 +1,15 @@
 ---
-title: ""
+layout: default
+title: 📚 Posts
 ---
 
-# 📚 Posts
+<h1>{{ page.title }}</h1>
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }})
-{% endfor %}
+<ul>
+  {% assign myposts = site.pages | where_exp: "page", "page.path contains 'posts/'" %}
+  {% for post in myposts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
