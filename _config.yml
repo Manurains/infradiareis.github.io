@@ -5,7 +5,7 @@ theme: minima
 # Disable date-based permalinks
 permalink: /posts/:title/
 
-# Navigation
+# Navigation tabs
 header_pages:
   - index.md
   - posts.md
