@@ -1,11 +1,82 @@
+# --- Site settings ---
+# This is a base configuration for your site.
+
 title: "InfraDiaries"
 description: "Your DevOps & SRE Knowledge Base"
-theme: minima
+url: "https://infradiaries.com" # Your custom domain name
+# You can add more site-wide variables here if needed
 
-# Disable date-based permalinks
+# --- Jekyll settings ---
+# These are the Jekyll configurations that Minimal Mistakes uses.
+
+# Remote Theme Configuration (The most important part!)
+remote_theme: "mmistakes/minimal-mistakes@4.27.1" # Use the latest version
+
+# List of Jekyll plugins for the theme
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+# --- Blog Post and Permalink Configuration ---
+# Your existing permalink setting is preserved here.
+
 permalink: /posts/:title/
 
-# Navigation tabs
-header_pages:
-  - index.md
-  - posts.md
+# --- Navigation and Header Pages ---
+# This is where we define the pages in your navigation bar.
+# Minimal Mistakes uses a different format for navigation.
+
+defaults:
+  # The layout for all posts
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      classes: wide
+      read_time: true
+
+# --- Minimal Mistakes Specific Configuration ---
+# These are some custom settings for the new theme.
+# You can customize these later.
+
+# Pagination for the main blog page
+paginate: 5
+paginate_path: /page:num/
+
+# Enable comments (This assumes you have Giscus set up already)
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: "R_kgDOLL_Q4Q" # Your repository ID from Giscus
+    category_id: "DIC_kwDOLL_Q4c4Cc0M" # Your blog comments category ID
+    theme: "dark" # Change to "light" or other themes to match your preference
+    lang: "en"
+
+# Search configuration
+search:
+  provider: "lunr"
+  lunr:
+    index_min_length: 3
+    store_fields:
+      - title
+      - excerpt
+      - categories
+      - tags
+
+# Site-wide author profile
+author:
+  name: "Manurains"
+  avatar: "/assets/images/profile-pic.jpg" # You'll need to add a profile pic
+  bio: "Your expert guide to DevOps, SRE, and cutting-edge tech."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Manurains"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/manurains/"
