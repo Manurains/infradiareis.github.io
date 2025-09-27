@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Generative AI Infrastructure: A Deep Dive into the Cloud"
-date: 2025-03-08 19:00:00 +0530 # Use your local timezone offset
-categories: Generative AI, DevOps, Cloud
+title: "The Platform Engineer's Toolkit: Multi-Cloud, LLMs, and PostgreSQL HA 🛠️"
+date: 2025-03-08 00:00:00 +0530 
+categories: [DevOps SRE, Generative AI] # Ensure these match the categories on your website
+tags: [PlatformEngineering, MultiCloud, LLM, PostgreSQL, HA] # Optional: for better search/filtering
 ---
 Here is a blog post covering the major themes from your profile, focusing on Platform Engineering, Multi-Cloud infrastructure, and the innovative use of LLMs, with a section on the core database technology often required in these environments.
 
